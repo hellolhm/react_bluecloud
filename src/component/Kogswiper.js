@@ -1,30 +1,31 @@
+import React from 'react';
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/swiper-bundle.min.css'
 
 
-
-const Cuswiper = () => {
+const Kogswiper = () => {
     return (
         <Swiper
         spaceBetween={0}
         centeredSlides={true}
         autoplay={{
-          delay: 4000,
+          delay: 1000,
           disableOnInteraction: false,
         }}
         pagination={{
           clickable: true,
         }}
         loop={true}
-        speed={3000}
+        speed={2000}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper"
+        className="kogsSwiper"
       >
-        <SwiperSlide><img src='img/main01.png' className='img-fluid'/></SwiperSlide>
-        <SwiperSlide><img src='img/main02.png' className='img-fluid'/></SwiperSlide>
+        <SwiperSlide><img src='img/kog01.png' className='img-fluid w-100'/></SwiperSlide>
+        <SwiperSlide><img src='img/kog02.png' className='img-fluid w-100'/></SwiperSlide>
       </Swiper>
     );
-    };
-    export default Cuswiper;
+};
+
+export default Kogswiper;

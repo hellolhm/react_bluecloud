@@ -5,7 +5,7 @@ import navicss from '../css/navi.module.css';
 function Rod() {
     return (
         <div className='container mt-5 pt-5'>
-            <div>
+            <div className='mt-lg-5 pt-lg-5'>
                 <h1 id='rod' className={`${navicss.thro} text-center text-white pt-5 pb-5`}>
                     청운한의원 오시는 길
                 </h1>
@@ -27,7 +27,7 @@ function Rod() {
                             공휴일 전화문의 : 033.651.5005
                     </p>
                 </div>
-                <div className='col-lg-7 col-12 d-lg-flex'> 
+                <div className='col-lg-7 col-12 d-lg-flex d-none d-sm-block'> 
                     <img src='img/main00.png' className='img-fluid h-75 pt-5 ps-5 mt-5'></img>
                 </div> 
             </div>
