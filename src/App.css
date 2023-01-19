@@ -1,12 +1,13 @@
 @font-face {
-	font-family: "휴먼범석체";
-	src: url(./assets/fonts/휴먼범석체.ttf);
+	font-family: "MapoFlowerIsland";
+	src: url(./assets/fonts/MapoFlowerIsland.ttf);
 }
 *{
-    font-family: 휴먼범석체;
+    font-family: MapoFlowerIsland;
+    font-size: 1rem;
 }
 .font141618{
-    font-size: 18px;
+    font-size: 20px;
 }
 @media (max-width:991px){
     .font141618{
@@ -28,6 +29,5 @@
 }
 .swiper-pagination-bullet{
     margin: 0 20px !important;
-    padding: 8px;
     border: #ffffff 2px solid;
 }
