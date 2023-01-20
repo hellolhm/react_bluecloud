@@ -1,0 +1,66 @@
+{
+    "reactid" : {
+        "title" : "리액트 그럭저럭",
+        "swlist" : [
+            {
+                "thumb" : ["big1.jpg","react1.jpg","react2.jpg","react3.jpg"],
+                "ex" : "3개월/광고기획웹앱/퍼소나...를 타겟으로 너트브매체에 홍보기획함",
+                "link" : [{
+                    "git" : "http://www.github.com",
+                    "notion" : "~~",
+                    "plan" : "구글드라이브주소",
+                    "site" : "리엑트노드서버주소",
+                    "figma" : []
+                }]
+            }
+        ]
+    },
+    "ecid" : {
+        "title" : "쇼핑몰은 협업",
+        "swlist" : [
+            {
+                "thumb" : ["big2.jpg","react4.jpg","react5.jpg","react6.jpg"],
+                "ex" : "3개월/광고기획웹앱/퍼소나...를 타겟으로 너트브매체에 홍보기획함",
+                "link" : [{
+                    "git" : "http://www.github.com",
+                    "notion" : "~~",
+                    "plan" : "기획pdf중요",
+                    "site" : "쇼핑몰주소",
+                    "figma" : []
+                }]
+            }
+        ]
+    },
+    "cmsid" :{
+        "title" : "그누보드는 프리가능",
+        "swlist" : [
+            {
+                "thumb" : ["big3.jpg","react7.jpg","react8.jpg","react9.jpg"],
+                "ex" : "3개월/광고기획웹앱/퍼소나...를 타겟으로 너트브매체에 홍보기획함",
+                "link" : [{
+                    "git" : "최근게시와 테마",
+                    "notion" : "~~",
+                    "plan" : "메뉴얼pdf파일",
+                    "site" : "그누보드주소",
+                    "figma" : []
+                }]
+            }
+        ]
+    },
+    "figmaid":{
+        "title" : "피그마는 전문가",
+        "swlist" : [
+            {
+                "thumb" : ["sir.jpg","ec.jpg","react10.jpg","hardcoding.jpg"],
+                "ex" : "기획에서 DB설계까지 피그마로 협업할 수 있습니다",
+                "link" : [{
+                    "git" : "최근게시와 테마",
+                    "notion" : "~~",
+                    "plan" : "메뉴얼pdf파일",
+                    "site" : "그누보드주소",
+                    "figma" : ["그누보드피그마주소","쇼핑몰피그마주소","리액트피그마주소","하드코딩피그마주소"]
+                }]
+            }
+        ]
+    }
+}

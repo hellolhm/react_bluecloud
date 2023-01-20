@@ -3,6 +3,7 @@ import Navi from './component/Navi';
 import About from './component/About';
 import Rod from './component/Rod';
 import Bluehan from './component/Bluehan';
+import Cont from './component/Cont';
 import './App.css';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <About></About>
       <Rod></Rod>
       <Bluehan></Bluehan>
+      <Cont></Cont>
     </div>
   );
 }

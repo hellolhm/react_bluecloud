@@ -31,3 +31,16 @@
     margin: 0 20px !important;
     border: #ffffff 2px solid;
 }
+.kogsSwiper .swiper-pagination-bullet{
+    margin: 0 20px !important;
+    border: #000000 2px solid;
+    --swiper-theme-color: #000000 !important;
+}
+.swiper{
+    height: 40rem;
+}
+@media (max-width:768px){
+    .swiper{
+        height: 100%;
+    }
+}

@@ -34,7 +34,7 @@ function Bluehan() {
                         <p className='fs-4'>집중력 향상과 체력관리가 필수인 수험생</p>
                     </div>
                     <div className='text-center col-6 bg-dark text-white'>
-                        <p className='fs-4'>중풍, 구안와사등 마비질환</p>
+                        <p className='fs-4'>중풍, 구안와사등<br></br> 마비질환</p>
                         <p className='fs-4'>각종 신경통</p>
                         <p className='fs-4'>중추신경계 질환</p>
                         <p className='fs-4'>심혈관계 질환</p>
@@ -42,7 +42,7 @@ function Bluehan() {
                         <p className='fs-4'>간 손상 회복 작용 및 생식능력 개선 목적</p>
                     </div>
                 </div>
-                <div className='text-center pt-5 mt-5'>
+                <div className='text-center pt-5 mt-5 mb-5'>
                     <p className=' tjswnans'>선 주문 할인 이벤트 15~20%</p>
                     <p className='fs-4'>한약 문의는 033.651.5005으로 부탁드립니다</p>
                 </div>

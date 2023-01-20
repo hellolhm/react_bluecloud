@@ -14,7 +14,7 @@ function Navi(props) {
                 <h1>
                   <Link to="/"><img src='img/logo.svg' className={navicss.logo}></img></Link>
                 </h1>
-                <Scrollspy id="gnb" className='d-flex ps-5 ms-5'>                
+                <Scrollspy id="gnb" className='d-flex ps-lg-5 ms-lg-5'>                
                     {
                         naviDBfile.naviDATA.map((item, idx)=>{
                             const myclass = item.d1.cls.join(" ");
