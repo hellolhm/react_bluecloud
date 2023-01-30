@@ -22,12 +22,16 @@ function Cont(props) {
                 <p className='fs-4'>맘에 드신다면 연락주세요</p>
             </div>
             <div className="d-flex justify-content-center">
-                <button onClick={ btnupdate } datasrc={['리액트','reactid']}>PWA 리액트</button>
-                <button onClick={ btnupdate } datasrc={['EC 쇼핑몰','ecid']}>EC 쇼핑몰</button>
-                <button onClick={ btnupdate } datasrc={['CMS 그누보드','cmsid']}>CMS 그누보드</button>
-                <button onClick={ btnupdate } datasrc={['Design 피그마','figmaid']}>Design 피그마</button>
+                <button onClick={ btnupdate } datasrc={['리액트','reactid']} className="mx-3">React 자소서</button>
+                <button onClick={ btnupdate } datasrc={['EC 쇼핑몰','ecid']} className="mx-3">Corsair 제작페이지</button>
+                <button onClick={ btnupdate } datasrc={['CMS 그누보드','cmsid']} className="mx-3">CMS 그누보드</button>
+                <button onClick={ btnupdate } datasrc={['Design 피그마','figmaid']} className="mx-3">Design 피그마</button>
             </div>
             <Contin dbobjkey={worknm[0]} portfolioId={worknm[1]}></Contin>
+            <div className='container'>
+                <p className='fs-4'>이름 : 이효명</p>
+                <p>openkakao : hello이효명</p>
+            </div>
             <div>
                 <p className='fs-3 text-end'>봐주셔서 감사합니다.</p>
             </div>

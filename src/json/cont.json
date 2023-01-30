@@ -1,9 +1,10 @@
 {
     "reactid" : {
-        "title" : "리액트 그럭저럭",
+        "title" : "React",
+        "stitle" : "리액트로 만든 나의 자소서",
         "swlist" : [
             {
-                "thumb" : ["big1.jpg","react1.jpg","react2.jpg","react3.jpg"],
+                "thumb" : ["/img/pege01.jpg","/img/pege01.jpg","/img/pege01.jpg","/img/pege01.jpg"],
                 "ex" : "3개월/광고기획웹앱/퍼소나...를 타겟으로 너트브매체에 홍보기획함",
                 "link" : [{
                     "git" : "http://www.github.com",
@@ -16,10 +17,22 @@
         ]
     },
     "ecid" : {
-        "title" : "쇼핑몰은 협업",
+        "title" : "Corsair 홈페이지",
+        "stitle" : "부트스트랩 5버전으로 만든 페이지",
         "swlist" : [
             {
-                "thumb" : ["big2.jpg","react4.jpg","react5.jpg","react6.jpg"],
+                "thumb" : ["/img/pege01.jpg","/img/pege01.jpg","/img/pege01.jpg","/img/pege01.jpg"],
+                "ex" : "2개월/광고기획웹앱/퍼소나...를 타겟으로 너트브매체에 홍보기획함",
+                "link" : [{
+                    "git" : "http://www.github.com",
+                    "notion" : "~~",
+                    "plan" : "기획pdf중요",
+                    "site" : "쇼핑몰주소",
+                    "figma" : []
+                }]
+            },
+            {
+                "thumb" : ["/img/pege01.jpg","/img/pege01.jpg","/img/pege01.jpg","/img/pege01.jpg"],
                 "ex" : "3개월/광고기획웹앱/퍼소나...를 타겟으로 너트브매체에 홍보기획함",
                 "link" : [{
                     "git" : "http://www.github.com",
@@ -35,7 +48,7 @@
         "title" : "그누보드는 프리가능",
         "swlist" : [
             {
-                "thumb" : ["big3.jpg","react7.jpg","react8.jpg","react9.jpg"],
+                "thumb" : ["/img/pege01.jpg","/img/pege01.jpg","/img/pege01.jpg","/img/pege01.jpg"],
                 "ex" : "3개월/광고기획웹앱/퍼소나...를 타겟으로 너트브매체에 홍보기획함",
                 "link" : [{
                     "git" : "최근게시와 테마",
@@ -51,7 +64,7 @@
         "title" : "피그마는 전문가",
         "swlist" : [
             {
-                "thumb" : ["sir.jpg","ec.jpg","react10.jpg","hardcoding.jpg"],
+                "thumb" : ["/img/pege01.jpg","/img/pege01.jpg","/img/pege01.jpg","/img/pege01.jpg"],
                 "ex" : "기획에서 DB설계까지 피그마로 협업할 수 있습니다",
                 "link" : [{
                     "git" : "최근게시와 테마",

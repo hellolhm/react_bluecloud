@@ -7,15 +7,28 @@ function Contin(props) {
         className='py-5'>
             <h2 
             className='text-uppercase text-center'>
-                {props.portfolioId}
+                {portfolio[props.portfolioId].title}
             </h2>
             <p className='text-center'>
-                {portfolio[props.portfolioId].title}
+                {portfolio[props.portfolioId].stitle}
             </p>
-            <ul >
-               <li>
-
-               </li>
+            <ul className='p-0'>
+               
+                    {
+                    portfolio[props.portfolioId].swlist.map(( v , i) =>{
+                        return <li className='text-center'>
+                            <h2>{v.ex}</h2>
+                            <ul className='p-0 d-lg-flex'>
+                                {
+                                    v.thumb.map((item, idx)=>{
+                                        return <li key={'p'+idx}><img src={item} className="img-fluid ps-3"></img></li>
+                                    })
+                                }
+                            </ul>
+                        </li>
+                    })
+                    }
+              
             </ul>
 
         </div>
