@@ -11,8 +11,8 @@ function App() {
     <div>
       <Navi></Navi>
       <About></About>
-      <Rod></Rod>
       <Bluehan></Bluehan>
+      <Rod></Rod>
       <Cont></Cont>
     </div>
   );

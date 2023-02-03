@@ -11,8 +11,8 @@ function About() {
                     <Cuswiper>
                     </Cuswiper>
                 </div>
-                <div className='text-center fs-4'>
-                    <p className={`fs-1 pt-5 pb-lg-5 container`}>저희 청운 한의원은</p>
+                <div className={`text-center fs-4 `}>
+                    <p className={`fs-1 pt-lg-5 pb-lg-4 container`}>저희 청운 한의원은</p>
                     <p className='fs-5'> 전 직원 마스크 착용 및 손소독을 철저히 하며<br></br>
                         접수 시 손소독과 체온 측정 뒤에 입장가능합니다
                     </p> 
@@ -25,17 +25,17 @@ function About() {
                         침, 사혈 부항, 주사기는 1회용으로 <br></br>안심하시고 치료받으실 수 있습니다.
                     </p>
                 </div>
-                <div>
-                    <div className='container text-center pt-5 fs-5 d-flex'>
-                    <p className='ps-lg-3 col-lg-4 col'>#자동차사고한의원</p>
-                    <p className='ps-lg-3 col-lg-4 col d-none d-sm-block'>#포남동야간진료한의원</p>
-                    <p className='ps-lg-3 col-lg-4 col'>#포남동야간한의원</p>
+                <div className='pt-4'>
+                    <div className='container text-center pt-5 d-flex'>
+                    <p className='ps-lg-3 col-lg-4 fs-4 col'>#자동차사고한의원</p>
+                    <p className='ps-lg-3 col-lg-4 fs-4 col d-none d-sm-block'>#포남동야간진료한의원</p>
+                    <p className='ps-lg-3 col-lg-4 fs-4 col'>#포남동야간한의원</p>
                     </div>
-                    <div className='container text-center fs-5 d-flex'>
-                    <p className='ps-lg-3 col-lg-3 col d-none d-sm-block'>#강릉야간한의원</p>
-                    <p className='ps-lg-3 col-lg-3 col'>#강릉청운한의원</p>
-                    <p className='ps-lg-3 col-lg-3 col'>#청운한의원</p>
-                    <p className='ps-lg-3 col-lg-3 col'>#강릉한의원</p>
+                    <div className='container text-center d-flex'>
+                    <p className='ps-lg-3 col-lg-3 col fs-4 d-none d-sm-block'>#강릉야간한의원</p>
+                    <p className='ps-lg-3 col-lg-3 col fs-4'>#강릉청운한의원</p>
+                    <p className='ps-lg-3 col-lg-3 col fs-4'>#청운한의원</p>
+                    <p className='ps-lg-3 col-lg-3 col fs-4 d-none d-sm-block'>#강릉한의원</p>
                     </div>
                 </div>
             </div>

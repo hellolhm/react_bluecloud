@@ -22,8 +22,8 @@ const Cuswiper = () => {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide><img src='img/main01.png' className='img-fluid w-100'/></SwiperSlide>
-        <SwiperSlide><img src='img/main02.png' className='img-fluid w-100'/></SwiperSlide>
+        <SwiperSlide><img src='img/main01.png' className='img-fluid'/></SwiperSlide>
+        <SwiperSlide><img src='img/main02.png' className='img-fluid'/></SwiperSlide>
       </Swiper>
     );
     };

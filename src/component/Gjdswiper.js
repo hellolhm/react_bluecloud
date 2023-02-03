@@ -1,9 +1,7 @@
 import React from 'react';
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-
 import 'swiper/swiper-bundle.min.css'
-
 const Gjdswiper = () => {
     return (
         <Swiper

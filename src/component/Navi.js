@@ -29,9 +29,9 @@ function Navi(props) {
                     }
                 </Scrollspy>
                 <ul id="sns" className='d-flex'>
-                    <li><a href="" target="_blank" className='px-3 font141618'>깃</a></li>
-                    <li><a href="" target="_blank" className='px-3 font141618'>노션</a></li>
-                    <li><a href="" target="_blank" className='px-3 font141618'>기획</a></li>
+                    <li><a href="" target="_blank" className='px-3 font141618 fontfb'>깃</a></li>
+                    <li><a href="" target="_blank" className='px-3 font141618 fontfb'>노션</a></li>
+                    <li><a href="" target="_blank" className='px-3 font141618 fontfb'>기획</a></li>
                 </ul>
             </header>
             
