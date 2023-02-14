@@ -17,14 +17,13 @@ function Cont(props) {
     }
     return (
         <div className='pt-lg-5 mt-lg-5 container'>
-            <div className={`${navicss.thro} text-center pt-3 pb-2 mb-5 mt-lg-5 text-white`}>
+            <div className={`bg-dark text-center pt-3 pb-2 mb-5 mt-lg-5 text-white`}>
                 <h1 id='contact' >CONTACT</h1>
                 <p className='fs-4'>맘에 드신다면 연락주세요</p>
             </div>
             <div className="d-flex justify-content-center">
                 <button onClick={ btnupdate } datasrc={['리액트','reactid']} className="mx-3 bg-dark text-white ps-3 px-3 pt-1 pb-1 border-0">React 자소서</button>
                 <button onClick={ btnupdate } datasrc={['EC 쇼핑몰','ecid']} className="mx-3 bg-dark text-white ps-3 px-3 pt-1 pb-1 border-0">Corsair 제작페이지</button>
-                <button onClick={ btnupdate } datasrc={['CMS 그누보드','cmsid']} className="mx-3 bg-dark text-white ps-3 px-3 pt-1 pb-1 border-0">CMS 그누보드</button>
                 <button onClick={ btnupdate } datasrc={['Design 피그마','figmaid']} className="mx-3 bg-dark text-white ps-3 px-3 pt-1 pb-1 border-0">Design 피그마</button>
             </div>
             <Contin dbobjkey={worknm[0]} portfolioId={worknm[1]}></Contin>

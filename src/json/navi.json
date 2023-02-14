@@ -5,7 +5,7 @@
                "naviText" : "병원소개",
                "type" : "",
                "href" : "/about",
-               "cls" :  ["px-3 px-lg-5", "font141618", "fontfb"]
+               "cls" :  ["px-3", "px-lg-5", "font141618", "fontfb"]
            }
            
        },
@@ -14,7 +14,7 @@
             "naviText" : "청운 한약방",
             "type" : "a",
             "href" : "#info",
-            "cls" :  ["px-3 px-lg-5", "font141618", "fontfb"]
+            "cls" :  ["px-3", "px-lg-5", "font141618", "fontfb"]
             }
         },
        {
@@ -22,7 +22,7 @@
                "naviText" : "오시는 길",
                "type" : "a",
                "href" : "#rod",
-               "cls" :  ["px-3 px-lg-5", "font141618", "fontfb"]
+               "cls" :  ["px-3", "px-lg-5", "font141618", "fontfb"]
            }
            
        },
@@ -31,7 +31,7 @@
                "naviText" : "연락주세요!",
                "type" : "a",
                "href" : "#contact",
-               "cls" :  ["px-3 px-lg-5", "font141618", "fontfb"]
+               "cls" :  ["px-3", "px-lg-5", "font141618", "fontfb"]
            }
            
        }

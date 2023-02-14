@@ -17,7 +17,7 @@ function Contin(props) {
                     {
                     portfolio[props.portfolioId].swlist.map(( v , i) =>{
                         return <li className='text-center'>
-                            <h2>{v.ex}</h2>
+                            <p className='fs-4'>{v.ex}</p>
                             <ul className='p-0 d-lg-flex'>
                                 {
                                     v.thumb.map((item, idx)=>{

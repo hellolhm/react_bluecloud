@@ -7,12 +7,12 @@ function Rod() {
     return (
         <div className='container pt-5'>
             <div className='pt-5'>
-                <h1 id='rod' className={`${navicss.thro} text-center text-white pt-5 pb-5`}>
+                <h1 id='rod' className={`${navicss.thro} text-center text-white py-5`}>
                     청운한의원 오시는 길
                 </h1>
             </div>
             <div className='d-lg-flex'>
-                <div className='col-lg-10'>
+                <div className='col-lg-12'>
                     <Kakao>
                     </Kakao>
                 </div>

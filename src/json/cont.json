@@ -1,11 +1,11 @@
 {
     "reactid" : {
         "title" : "React",
-        "stitle" : "리액트로 만든 나의 자소서",
+        "stitle" : "리액트로 만든 나의 자소서 : 3개월",
         "swlist" : [
             {
-                "thumb" : ["/img/pege01.jpg","/img/pege01.jpg","/img/pege01.jpg","/img/pege01.jpg"],
-                "ex" : "3개월/광고기획웹앱/퍼소나...를 타겟으로 너트브매체에 홍보기획함",
+                "thumb" : ["/img/reactg2.png","/img/reactg1.png","/img/reactg3.png"],
+                "ex" : "리액트와 부트스트랩 5버전을 사용하여 자소서 페이지 제작",
                 "link" : [{
                     "git" : "http://www.github.com",
                     "notion" : "~~",
@@ -18,22 +18,11 @@
     },
     "ecid" : {
         "title" : "Corsair 홈페이지",
-        "stitle" : "부트스트랩 5버전으로 만든 페이지",
+        "stitle" : "부트스트랩 활용 광고페이지 : 1주일",
         "swlist" : [
             {
-                "thumb" : ["/img/pege01.jpg","/img/pege01.jpg","/img/pege01.jpg","/img/pege01.jpg"],
-                "ex" : "2개월/광고기획웹앱/퍼소나...를 타겟으로 너트브매체에 홍보기획함",
-                "link" : [{
-                    "git" : "http://www.github.com",
-                    "notion" : "~~",
-                    "plan" : "기획pdf중요",
-                    "site" : "쇼핑몰주소",
-                    "figma" : []
-                }]
-            },
-            {
-                "thumb" : ["/img/pege01.jpg","/img/pege01.jpg","/img/pege01.jpg","/img/pege01.jpg"],
-                "ex" : "3개월/광고기획웹앱/퍼소나...를 타겟으로 너트브매체에 홍보기획함",
+                "thumb" : ["/img/cor1.jpg","/img/cor2.jpg","/img/cor3.jpg"],
+                "ex" : "Corsair 광고기획웹앱 : 게임 유저를 타겟으로 너트브 매체에 홍보기획",
                 "link" : [{
                     "git" : "http://www.github.com",
                     "notion" : "~~",
@@ -44,27 +33,12 @@
             }
         ]
     },
-    "cmsid" :{
-        "title" : "그누보드는 프리가능",
-        "swlist" : [
-            {
-                "thumb" : ["/img/pege01.jpg","/img/pege01.jpg","/img/pege01.jpg","/img/pege01.jpg"],
-                "ex" : "3개월/광고기획웹앱/퍼소나...를 타겟으로 너트브매체에 홍보기획함",
-                "link" : [{
-                    "git" : "최근게시와 테마",
-                    "notion" : "~~",
-                    "plan" : "메뉴얼pdf파일",
-                    "site" : "그누보드주소",
-                    "figma" : []
-                }]
-            }
-        ]
-    },
+   
     "figmaid":{
         "title" : "피그마는 전문가",
         "swlist" : [
             {
-                "thumb" : ["/img/pege01.jpg","/img/pege01.jpg","/img/pege01.jpg","/img/pege01.jpg"],
+                "thumb" : [],
                 "ex" : "기획에서 DB설계까지 피그마로 협업할 수 있습니다",
                 "link" : [{
                     "git" : "최근게시와 테마",
