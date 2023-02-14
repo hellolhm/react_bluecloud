@@ -28,14 +28,14 @@ function About() {
                 <div className='pt-4'>
                     <div className='container text-center pt-5 d-flex'>
                     <p className='ps-lg-3 col-lg-4 fs-4 col'>#자동차사고한의원</p>
-                    <p className='ps-lg-3 col-lg-4 fs-4 col d-none d-sm-block'>#포남동야간진료한의원</p>
+                    <p className='ps-lg-3 col-lg-4 fs-4 col d-none d-lg-block'>#포남동야간진료한의원</p>
                     <p className='ps-lg-3 col-lg-4 fs-4 col'>#포남동야간한의원</p>
                     </div>
                     <div className='container text-center d-flex'>
-                    <p className='ps-lg-3 col-lg-3 col fs-4 d-none d-sm-block'>#강릉야간한의원</p>
+                    <p className='ps-lg-3 col-lg-3 col fs-4 d-none d-lg-block'>#강릉야간한의원</p>
                     <p className='ps-lg-3 col-lg-3 col fs-4'>#강릉청운한의원</p>
                     <p className='ps-lg-3 col-lg-3 col fs-4'>#청운한의원</p>
-                    <p className='ps-lg-3 col-lg-3 col fs-4 d-none d-sm-block'>#강릉한의원</p>
+                    <p className='ps-lg-3 col-lg-3 col fs-4 d-none d-lg-block'>#강릉한의원</p>
                     </div>
                 </div>
             </div>
