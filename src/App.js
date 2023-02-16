@@ -9,7 +9,7 @@ import './App.css';
 function App() {
   return (
     <div>
-      <Navi></Navi>
+      <Navi/>
       <About></About>
       <Bluehan></Bluehan>
       <Rod></Rod>

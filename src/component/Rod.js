@@ -3,6 +3,7 @@ import Kakao from './Kakao';
 import navicss from '../css/navi.module.css';
 import '../App.css';
 
+
 function Rod() {
     return (
         <div className='container pt-5'>
@@ -17,20 +18,18 @@ function Rod() {
                     </Kakao>
                 </div>
                 <div className='col-lg-5 col-12 kakaoMap_info mt-4'>
-                    <div className='box text-light px-sm-4 py-5'>
+                    <div className='box text-light px-sm-4 py-4 mt-4'>
                         <dl className='px-2 row m-0'>
                             <dt className='col-sm-3 fs-3 border-bottom'>주소</dt>
                             <dd className='col-sm-9 border-bottom mb-0'>
-                                <p>
+                                <p className='fs-4'>
                                     강릉시 포남동 하평길 31<br></br>  KR GS마트2층 우진빌딩 2층
                                 </p>
-                                <p class="rounded-pill bg-cu color-black py-1 px-2 d-inline-block">
+                                <p class="rounded-pill py-1  d-inline-block">
                                     주차는 건물내 주차장 이용
                                 </p>
                             </dd>
-                            <dt className='py-3 col-sm-3 border-bottom'>
-                                <h2 class="ks5 ">진료시간</h2>
-                            </dt>
+                            <dt className='py-3 col-sm-3 border-bottom fs-4'>진료시간</dt>
                             <dd className='py-3 col-sm-9 row border-bottom m-0 ps-0'>
                                 <strong class="col-sm-4 ps-4">  평일 </strong>
                                 <span class="col-sm-8 ps-4">오전 9시 ~ 오후 6시</span>
@@ -45,9 +44,7 @@ function Rod() {
                             <dd class="col-sm-9 mt-2 pb-0">
                                 <a href="tel:033.651.5005" className='text-white fs-2 ps-3'>033.651.5005</a>
                             </dd>
-                            <dt>
-                                <button onclick="setCenter()" class="border mb-2 mb-sm-0 w-100 px-3 py-1 text-light f17 border-w-2">지도중심 이동</button>
-                            </dt>
+                            
                         </dl>
                     </div>
                 </div>

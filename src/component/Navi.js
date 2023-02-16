@@ -13,9 +13,9 @@ function Navi(props) {
         <div className={`${navicss.hd}  border-bottom  py-2  fixed-top`}>
             <header id="hd" className='container-lg d-lg-flex flex-wrap justify-content-between align-items-center'>
                 <h1>
-                  <Link to="/"><img src='img/logo.svg' className={navicss.logo}></img></Link>
+                  <Link to="/"><img src='img/logo.svg' className={`${navicss.logo} img-fluid`}></img></Link>
                 </h1>
-                <Scrollspy id="gnb" className='d-md-flex ps-lg-5 ms-lg-5 d-none d-md-block'>                
+                <Scrollspy id="gnb" className='d-md-flex d-none d-md-block pt-3'>                
                     {
                         naviDBfile.naviDATA.map((item, idx)=>{
                             const myclass = item.d1.cls.join(" ");
@@ -29,11 +29,7 @@ function Navi(props) {
                         })
                     }
                 </Scrollspy>
-                <ul id="sns" className='d-flex'>
-                    <li><a href="" target="_blank" className='px-3 font141618 fontfb d-none d-md-block'>깃</a></li>
-                    <li><a href="" target="_blank" className='px-3 font141618 fontfb d-none d-md-block'>노션</a></li>
-                    <li><a href="" target="_blank" className='px-3 font141618 fontfb d-none d-md-block'>기획</a></li>
-                </ul>
+                
                 <button className='d-md-none navibtn'>햄버거</button>
                 <div className='bg-white d-md-none d-block'>
                     <Scrollspy id="mgnb">                

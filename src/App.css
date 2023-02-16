@@ -2,27 +2,38 @@
 .bg-cu{
     background-color: #041e65;
 }
-@font-face {
-	font-family: "MAPOAGAPE";
-	src: url(./assets/fonts/MAPOAGAPE.TTF);
+.bordercolor{
+    border: #0b297b 7px solid !important;
+    border-radius: 30px !important;
 }
 @font-face {
-	font-family: "MALANGMALANGR";
-	src: url(./assets/fonts/MALANGMALANGR.TTF);
+	font-family: "BareunBatangL";
+	src: url(./assets/fonts/BareunBatangB.ttf);
 }
 @font-face {
-	font-family: "MALANGMALANGB";
-	src: url(./assets/fonts/MALANGMALANGB.TTF);
+	font-family: "BareunBatangM";
+	src: url(./assets/fonts/BareunBatangL.ttf);
+}
+@font-face {
+	font-family: "BareunBatangB";
+	src: url(./assets/fonts/BareunBatangM.ttf);
 }
 *{
-    font-family: MALANGMALANGR;
+    font-family: BareunBatangM;
     font-size: 1rem;
+}
+.abs{
+    position: absolute;
+}
+.rel{
+    position: relative;
 }
 .font141618{
     font-size: 20px;
 }
 .fontfb{
-    font-family: MALANGMALANGB;
+    font-size: 1.4rem;
+    font-family: BareunBatangB;
 }
 @media (max-width:991px){
     .font141618{
@@ -34,32 +45,55 @@
         font-size: 14px;
     }
 }
+.border-bottom{
+    border-color: transparent !important;
+}
 
 :root{
     --swiper-theme-color: #ffffff !important;
 }
 .swiper-pagination-bullet{
     margin: 0 20px !important;
-    border: #ffffff 2px solid;
+    border: #a1a5a7 8px solid;
 }
-.kogsSwiper .swiper-pagination-bullet{
-    margin: 0 20px !important;
-    border: #000000 2px solid;
-    --swiper-theme-color: #000000 !important;
+.swiper-slide {
+    width: 100%;
+    height: 80vh !important;
+  }
+.bg {
+    width: 100%;
+    height: inherit;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    will-change: transform;
+  }
+.bg.bg1 {
+    background-image: url(../public/img/main01.jpg);
 }
-.swiper{
+.bg.bg2 {
+    background-image: url(../public/img/main02.jpg);
+}
+.bg.bg3 {
+    background-image: url(../public/img/main03.jpg);
+}
+.bg.bg4 {
+    background-image: url(../public/img/main04.jpg);
+}
+
+/* .swiper{
     height: 40rem;
-}
+} */
 @media (max-width:768px){
     .swiper{
         height: 100%;
     }
 }
 .kakaoMap_info{
-    background-color: rgba(0,0,0,.8);
+    background-color: rgb(2 19 66 / 83%);
     z-index: 1000;
     transform: translateX(-100%);
-    height: 28rem;
+    height: 27rem;
 }
 @media (max-width:768px){
     .kakaoMap_info{
@@ -79,3 +113,54 @@
 .navibtn{
     transform: translate(180px, -60px)
 }
+.mainimg{
+    padding-top: 48px;
+}
+.cubgimg1{
+    background-image: url(../public/img/cubgimg1.jpg);
+    padding: 3rem;
+}
+.cubgimg2{
+    background-image: url(../public/img/cubgimg2.jpg);
+    padding: 3rem;
+}
+.cubgimg3{
+    background-image: url(../public/img/cubgimg3.jpg);
+    padding: 3rem;
+}
+	
+.video {
+    width: 100%;
+    max-width: 1300px;
+    margin: 30px auto;
+    background-color: #f7f6f6;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 8px 33px #4c4c4c;
+    
+  }
+   
+  .video-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 50%;
+  }
+   
+  iframe {
+    z-index: 1;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .gtext1{
+    font-size: 20px;
+  }
+  .gtext2{
+    font-size: 20px;
+    border: solid 5px #0b297b;
+    border-radius: 10px;
+    padding: 10px;
+  }
