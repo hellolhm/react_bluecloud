@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
-import navicss from '../css/navi.module.css';
 import Contin from './Contin';
-import '../App.css';
 
 
 function Cont(props) {

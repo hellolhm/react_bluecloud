@@ -6,9 +6,9 @@ import '../App.css';
 
 function Rod() {
     return (
-        <div className='container pt-5'>
+        <div  id='rod' className='container pt-5'>
             <div className='pt-5'>
-                <h1 id='rod' className={`${navicss.thro} text-center text-white py-5`}>
+                <h1 className={`${navicss.thro} text-center text-white py-5`}>
                     청운한의원 오시는 길
                 </h1>
             </div>

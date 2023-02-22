@@ -118,15 +118,18 @@
 }
 .cubgimg1{
     background-image: url(../public/img/cubgimg1.jpg);
+    background-size: cover;
     padding: 3rem;
 }
 .cubgimg2{
     background-image: url(../public/img/cubgimg2.jpg);
     padding: 3rem;
+    background-size: cover;
 }
 .cubgimg3{
     background-image: url(../public/img/cubgimg3.jpg);
     padding: 3rem;
+    background-size: cover;
 }
 	
 .video {
@@ -159,8 +162,16 @@
     font-size: 20px;
   }
   .gtext2{
-    font-size: 20px;
+    font-size: 18px;
     border: solid 5px #0b297b;
     border-radius: 10px;
     padding: 10px;
+  }
+  .go{
+    margin-left: 20rem;
+    margin-right: 20rem;
+    background-color: #041e65;
+  }
+  .gjddnm{
+    font-weight: 700;
   }
