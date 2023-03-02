@@ -1,5 +1,4 @@
 import React from 'react';
-import navicss from '../css/navi.module.css';
 import '../App.css';
 import Cuswiper from './Cuswiper';
 
@@ -12,14 +11,14 @@ function About() {
                     <Cuswiper>
                     </Cuswiper>
                 </div>
-                <div className='container p-0 rounded bordercolor d-lg-flex p-5 mt-5'>
+                <div className='container p-0 rounded d-lg-flex p-5 mt-5'>
                     <div className='col-lg-4'>
-                        <img src='./img/you.jpg' className='img-fluid'></img>
+                        <img src='./img/you.jpg' className='img-fluid borr'></img>
                     </div>
-                    <div className='col-lg-8 ps-lg-5'>
+                    <div className='col-lg-8 p-lg-5'>
                         <div>
                             <p className='fs-2'>대표원장 <strong className='fs-1'>김철수</strong></p>
-                            <p className='fs-4'>
+                            <p className='fs-5'>
                                 - 경희대학교 한의학과 졸업<br></br>
                                 - 경희대학교 한의과 대학 석사<br></br>
                                 - 경희대학교 한의과 대학 박사 2기 수료<br></br>
@@ -28,8 +27,8 @@ function About() {
                                 - 예일한의원 대표원장 "1993 - 현재"
                             </p>
                         </div>
-                        <div className='pt-5'>
-                        <p className='fs-4'>
+                        <div>
+                        <p className='fs-5'>
                             - KSCPA "한국체력훈련실무자협회" 협회장<br></br>
                             - KASM "한국 스포츠의학 협회" 자문위원<br></br>
                             - 대한스포츠한의학회 정회원<br></br>

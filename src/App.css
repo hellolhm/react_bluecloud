@@ -159,7 +159,7 @@
     height: 100%;
   }
   .gtext1{
-    font-size: 20px;
+    font-size: 18px;
   }
   .gtext2{
     font-size: 18px;
@@ -174,4 +174,7 @@
   }
   .gjddnm{
     font-weight: 700;
+  }
+  .borr{
+    border-radius: 250px;
   }

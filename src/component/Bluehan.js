@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Gongin from './Gongin';
-// import navicss from '../css/navi.module.css';
 
 
 function Bluehan(props) {
@@ -31,7 +30,7 @@ function Bluehan(props) {
                 <div className='pt-lg-4'>
                     <p className='text-center bg-cu text-white bordercolor fs-4'>이런분들께 공진단을 추천합니다</p>
                     <div className='d-flex'>
-                    <p className='lh-3 gtext1'>
+                    <p className='lh-3 gtext1 '>
                     - 어르신들의 기력보충<br></br>
                     - 과도한 스트레스와 만성피로<br></br>
                     - 집중력 향상과 체력관리가 필수인 수험생<br></br>
@@ -43,29 +42,19 @@ function Bluehan(props) {
                     </p>
                     </div>
                     <div>
-                        <p className='gtext2 mt-lg-5'>
-                            남자가 장성해서도 양기가 약하다면
-                            이것은 타고나기를<br></br> 약하게 타고난 것이지
-                            허해져서 그런것이 아니다.
-                            이럴때<br></br> 함부로 양기만을 도와주는
-                            조하고 삽한 약을 쓰면 안된다.<br></br>
-                            滋益하는 약을 써야 하는데
-                            그런 약도 여러가지가 많지만<br></br>
-                            약력이 약해서 효과를 보기 어렵다.<br></br><br></br>
-                            내가 타고나서 가지고 있는 기운이라도 단단히 지키고<br></br>
-                            몸의 기능이 원활히 돌아가게 하면 오장이 조화를 이루고<br></br> 백병이 생기지 않게 되는데
-                            공진단 이 처방이 유효하다.<br></br>
+                        <p className='gtext2'>
+                            내가 타고나서 가지고 있는 기운이라도 단단히 지키고 몸의 기능이 원활히 돌아가게 하면 오장이 조화를 이루고 백병이 생기지 않게 되는데 공진단 이 처방이 유효하다<br></br>
                             <strong className='fs-4'>-동의보감 "東醫寶鑑"-</strong>
                         </p>
                     </div>
                 </div>
             </div>
-            <div className='pt-5 mt-2 d-flex flex-wrap justify-content-center'>
-                <button onClick={ btnupdate } datasrc={['리액트','reactid']} className="mx-3 bg-cu text-white ps-5 px-5 pt-3 pb-3 border-0 fs-5 ms-5 me-5">원방공진단</button>
-                <button onClick={ btnupdate } datasrc={['EC 쇼핑몰','ecid']} className="mx-3 bg-cu text-white ps-5 px-5 pt-3 pb-3 border-0 fs-5 ms-5 me-5">목향공진단</button>
-                <button onClick={ btnupdate } datasrc={['Design 피그마','figmaid']} className="mx-3 bg-cu text-white ps-5 px-5 pt-3 pb-3 border-0 fs-5 ms-5 me-5">태양공진단</button>
-                <button onClick={ btnupdate } datasrc={['Design 피그마','figma2id']} className="mx-3 bg-cu text-white ps-5 px-5 pt-3 pb-3 border-0 fs-5 ms-5 me-5">침향공진단</button>
-                <button onClick={ btnupdate } datasrc={['Design 피그마','figma3id']} className="mx-3 bg-cu text-white ps-5 px-5 pt-3 pb-3 border-0 fs-5 ms-5 me-5">녹용공진단</button>
+            <div className='pt-5 mt-2 d-flex flex-wrap justify-content-center mb-2'>
+                <button onClick={ btnupdate } datasrc={['리액트','reactid']} className="mx-3 bg-cu text-white ps-5 px-5 pt-3 pb-3 border-0 fs-5 borr">원방공진단</button>
+                <button onClick={ btnupdate } datasrc={['EC 쇼핑몰','ecid']} className="mx-3 bg-cu text-white ps-5 px-5 pt-3 pb-3 border-0 fs-5 borr">목향공진단</button>
+                <button onClick={ btnupdate } datasrc={['Design 피그마','figmaid']} className="mx-3 bg-cu text-white ps-5 px-5 pt-3 pb-3 border-0 fs-5 borr">태양공진단</button>
+                <button onClick={ btnupdate } datasrc={['Design 피그마','figma2id']} className="mx-3 bg-cu text-white ps-5 px-5 pt-3 pb-3 border-0 fs-5 borr">침향공진단</button>
+                <button onClick={ btnupdate } datasrc={['Design 피그마','figma3id']} className="mx-3 bg-cu text-white ps-5 px-5 pt-3 pb-3 border-0 fs-5 borr">녹용공진단</button>
             </div>
             <Gongin dbobjkey={worknm[0]} portfolioId={worknm[1]}></Gongin>
         </div>
